@@ -1,0 +1,3 @@
+let series = ["breaking bad", "game of trons", "dark"];
+
+module.exports = series;
