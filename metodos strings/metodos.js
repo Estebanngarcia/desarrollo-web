@@ -64,4 +64,49 @@ let frase = 'breaking bad rules!';
 //frase.slice(13); // devuelve 'rules!'
 frase.slice(-10); // devuelve bad rules!. empieza contando de atras hacia adelante.
 
-console.log(frase.slice(-10))
+console.log(frase.slice(-10));
+
+
+
+
+/* METODO .TRIM()
+
+elimina los espacios que existen al principio y al final de un string.
+*no recibe parametros.
+*no quita los espacios del medio. */
+
+let nombre = '  homero simpson  ';
+nombre.trim(); // devuelve 'homero simpson'
+
+let nombreCompleto = '  homero  j.  simpson  ';
+nombreCompleto.trim(); // devuelve 'homero  j.  simpson'
+
+
+
+
+/* metodo .split()
+
+divide un string en partes
+*recibe un string que usara como separador de las partes.
+*devuelve un array con las partes del string. */
+
+let cancion = 'and bingo was his name, oh!';
+
+cancion.split(' '); //devuelve ['and', 'bingo', 'was', 'his', 'name, ', 'oh!']
+
+cancion.split(', '); //devuelve ['and bingo was his name', 'oh!']
+
+
+
+
+/* metodo .replace()
+
+reemplaza una parte del string por otra.
+*recibe dos strings como parametros:
+  +el string que queremos buscar.
+  +el string que usaremos de reemplazo.
+*retorna un nuevo string con el reemplazo. */
+
+let cadenaTxt = 'aguante phyton';
+cadenaTxt.replace('phyton', 'js'); //devuelve 'aguante js'
+cadenaTxt.replace('phy', 'js'); //devuelve 'aguante jston'
