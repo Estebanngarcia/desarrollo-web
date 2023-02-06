@@ -14,7 +14,7 @@ function Auto(marca, modelo) {
 /* la funcion construtora Auto() espera dos parametros: marca y modelo.
 para crear un objeto Auto debemos usar la palabra reservada new y llamar a la funcion pasandole los parametros que espera. */
 
-let miAuto = new Auto ('ford', 'falcon');
+let miAuto = new Auto ('ford', 'falcon'); //Auto { marca: 'ford', modelo: 'falcon' }
 
 /* cuando ejecutamos el metodo new para crear un objeto, lo que nos devuelve es una isntancia. es decir, en la variable tendremos almacenada una instancia del objeto auto.
 usando la misma funcion, podemos instanciar cuantos autos queramos. */
